@@ -14,7 +14,7 @@
 You can install the LaTeX Merger tool using `pip` by cloning the repository and running the following commands:
 
 ```bash
-git clone https://github.com/your-username/latex-merger.git
+git clone https://github.com/hhchen1105/latex-merger.git
 cd latex-merger
 pip install .
 ```
