@@ -20,6 +20,12 @@ setup(name='LaTeXMerger',
       author_email='hhchen@ncu.edu.tw',
       license='MIT',
       packages=['latexmerger'],
+      py_modules=['latexmerger.py'],
+      entry_points={
+          'console_scripts': [
+              'latexmerger=latexmerger:main',
+          ],
+      },
       install_requires=[
       ],
       include_package_data=True,
