@@ -24,7 +24,7 @@ pip install .
 To use the tool, simply run the following command, pointing to the main LaTeX file:
 
 ```bash
-latex_merger.py [your-latex-file].tex
+latexmerger.py [your-latex-file].tex
 ```
 
 This will generate a file called `[your-latex-file]-merged.tex`, which will contain the content of the main file and all the files included via the `\input{}` command.
